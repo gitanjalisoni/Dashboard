@@ -27,7 +27,7 @@ body {
 
 @media (max-width: 767px) {
   .summary, .payment {
-    width: 40%;
+    width: 100%;
     margin-bottom: 20px;
   }
 }
