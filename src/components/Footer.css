@@ -1,0 +1,112 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-about h4,
+.footer-links h4 {
+  margin-bottom: 5px; /* Adjust the gap between h4 and paragraphs */
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-about h4 {
+  margin-top: 0; /* Remove top margin for the first h4 */
+}
+
+.footer-about p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 10px 0 60px; /* Adjust margin as needed */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px; /* Adjust the gap between sections */
+}
+
+.footer-links > div {
+  flex: 1;
+  margin-right: 20px; /* Adjust spacing between sections */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: flex-start; /* Align icons to the left */
+  margin-top: 30px; /* Adjust top margin for spacing */
+  margin-right: 60%; /* Add some left margin to separate from Services box */
+}
+
+.footer-social a {
+  color: #fff;
+  margin-left: 30px; /* Adjust spacing between icons */
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #ddd;
+}
+
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-about,
+  .footer-links,
+  .footer-social {
+    margin-bottom: 0;
+  }
+
+  .footer-about {
+    flex: 1;
+    margin-right: 20px; /* Add right margin for spacing */
+  }
+
+  .footer-links {
+    flex: 2;
+    justify-content: space-between;
+    margin-bottom: 0; /* Remove extra margin between sections */
+  }
+
+  .footer-links > div {
+    margin-right: 40px; /* Increase spacing between sections */
+  }
+
+  .footer-social {
+    flex: 1;
+    justify-content: flex-end; /* Ensure icons stay aligned right */
+    margin-top: 0; /* Remove top margin in larger screens if not needed */
+  }
+}
