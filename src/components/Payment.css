@@ -44,7 +44,9 @@
   width: 100%;
   max-width: 300px;
   margin: 25px 0 40px;
-  margin-right: 60%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .card-details {
