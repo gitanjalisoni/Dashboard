@@ -30,8 +30,8 @@
 
 .divider {
   border: 0;
-  border-top: 2px solid #000; /* Black line with a thickness of 2px */
-  margin: 8px 0;             /* 10px margin above and below the line */
+  border-top: 2px solid #000; 
+  margin: 8px 0;             
   width: 16.5%;  
 }
 
@@ -104,4 +104,50 @@
 .pay-button {
   background-color: #000;
   color: #fff;
+}
+@media (max-width: 767px) {
+  .payment{
+    width: 100%;
+    margin-right: 60%;
+  }
+  .payment h2{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .payment-text {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .payment-option {
+    display: flex;
+    align-items: center;
+  }
+  .payment-text1 {
+    font-size: 12px; 
+    font-weight: bold;
+  }
+  .payment-methods{
+    gap:20px;
+  }
+  .card-image {
+    width: 190%; 
+    margin-right: 40%;
+  }
+  .card-details{
+    width: 180%;
+  }
+  .card-expiry-cvv{
+    width: 195%;
+  }
+  .checkbox-container{
+    font-size: 11.1px;
+    font-weight: bold;
+    
+  }
+  .back-button,
+  .pay-button {
+    padding: 15px 45px; 
+    font-size: 11px; 
+    margin-left: 10%;
+  }
 }

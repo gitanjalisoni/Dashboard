@@ -1,15 +1,14 @@
-/* General styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: fff;
+  background-color: #fff;
+  overflow-x: hidden; 
 }
 
 .App {
   text-align: center;
 }
 
-/* Container styles */
 .container {
   display: flex;
   flex-direction: column;
@@ -26,10 +25,9 @@ body {
   }
 }
 
-/* Responsive adjustments */
 @media (max-width: 767px) {
   .summary, .payment {
-    width: 100%;
+    width: 40%;
     margin-bottom: 20px;
   }
 }

@@ -10,12 +10,6 @@ const Footer = () => {
           <p>We are a residential interior design firm located in
             <br/>
             Portland. Our boutique studio offers more than</p>
-          <div className="footer-social">
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-tiktok"></i></a>
-          </div>
         </div>
         
         <div className="footer-links">
@@ -41,6 +35,13 @@ const Footer = () => {
               <li>Terms of use of the site</li>
             </ul>
           </div>
+        </div>
+        
+        <div className="footer-social">
+          <a href="#"><i className="fab fa-twitter"></i></a>
+          <a href="#"><i className="fab fa-facebook"></i></a>
+          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="#"><i className="fab fa-tiktok"></i></a>
         </div>
       </div>
     </footer>

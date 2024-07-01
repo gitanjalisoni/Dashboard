@@ -33,7 +33,7 @@
 }
 
 .summary-item-content {
-  flex-grow: 1; /* Grow to fill remaining space */
+  flex-grow: 1; 
 }
 
 .summary-item span {
@@ -58,4 +58,9 @@
 .summary-detail.total {
   font-weight: bold;
   font-size: 16px;
+}
+@media (max-width: 767px) {
+  .summary {
+    display: none;
+  }
 }
